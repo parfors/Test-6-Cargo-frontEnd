@@ -8,10 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        mainBLue: "#3191FF",
+        mainWhite: "#FFFFFF",
+        darkGray: "#333333",
+        lightGray: "#F0F0F0",
+        gray: "#B0B0B0",
+        black: "#000000",
       },
     },
   },
   plugins: [],
 };
+
+// "eslint": "^8",
+// "eslint-config-next": "15.0.2",
