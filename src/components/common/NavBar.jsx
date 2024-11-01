@@ -20,9 +20,9 @@ const navigation = [
   },
 ];
 
-function NavBar() {
+function NavBar({ className }) {
   return (
-    <nav className="basis-1/2 flex items-center gap-12 justify-center text-darkGray text-base font-semibold">
+    <nav className={className}>
       {navigation.map((link) => (
         <Link key={link.title} href={link.href}>
           {link.title}

@@ -10,11 +10,17 @@ function Header() {
         <Link className="basis-1/4" href={"/"}>
           <ImageHolder
             alt={"icon image"}
-            src={"/group31.png"}
+            priority={true}
+            src={"/logo.png"}
+            sizes={`127px`}
             className={"relative w-[127px] h-[105px]"}
           ></ImageHolder>
         </Link>
-        <NavBar />
+        <NavBar
+          className={
+            "basis-1/2 flex items-center gap-12 justify-center text-darkGray text-base font-semibold"
+          }
+        />
         <Contacts />
       </div>
     </header>

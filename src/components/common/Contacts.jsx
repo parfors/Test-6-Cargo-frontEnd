@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import HeaderBtn from "./HeaderBtn";
 
 function Contacts() {
   return (
@@ -10,10 +11,7 @@ function Contacts() {
       >
         0 800 544 12 13
       </Link>
-      <Link className="px-[34px] py-[14px]  bg-mainBLue rounded-full" href="/">
-        Contact Us
-        <span></span>
-      </Link>
+      <HeaderBtn />
     </div>
   );
 }

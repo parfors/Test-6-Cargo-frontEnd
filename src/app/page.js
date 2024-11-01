@@ -1,10 +1,11 @@
-import Header from "@/components/header/Header";
+import Hero from "@/components/hero/Hero";
+import Information from "@/components/information/Information";
 
 export default function Home() {
   return (
     <>
-      <Header></Header>
-      {/* <p className="bg-darkGray text-[175px]">Leading the way </p> */}
+      <Hero />
+      <Information />
     </>
   );
 }
