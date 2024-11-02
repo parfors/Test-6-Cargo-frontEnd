@@ -2,10 +2,10 @@ import React from "react";
 
 function Information() {
   return (
-    <section className="pl-[112px] pr-[48px] py-[48px] flex items-center gap-10">
+    <section className="pl-[112px] pr-[48px] py-[48px] flex items-start gap-10">
       <div className=" basis-1/2">
         <h2 className="font-extrabold text-[76px]">Who we are?</h2>
-        <ul className="text-[24px] font-light text-darkGray">
+        <ul className="text-[24px] font-light text-darkGray flex flex-col gap-8">
           <li>
             Our services include air freight for urgent and high-value cargo, as
             well as sea freight for cost-effective transportation of large
@@ -34,7 +34,7 @@ function Information() {
           </li>
         </ul>
       </div>
-      <div className="bg-information h-[870px] basis-1/2"></div>
+      <div className="bg-information h-[870px] basis-1/2 rounded-[40px]"></div>
     </section>
   );
 }

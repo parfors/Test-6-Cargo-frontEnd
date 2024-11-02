@@ -8,13 +8,15 @@ function Footer() {
   return (
     <footer className="bg-lightGray ">
       <div className="pl-[64px] pt-[55px] pb-[96px] flex gap-16">
-        <ImageHolder
-          alt={"icon image"}
-          priority={false}
-          src={"/logo.png"}
-          sizes={`127px`}
-          className={"relative w-[127px] h-[105px]"}
-        ></ImageHolder>
+        <Link href="/">
+          <ImageHolder
+            alt={"icon image"}
+            priority={false}
+            src={"/logo.png"}
+            sizes={`127px`}
+            className={"relative w-[127px] h-[105px]"}
+          ></ImageHolder>
+        </Link>
         <div className="w-[160px]">
           <p className="uppercase pb-3 text-lg font-bold">Services</p>
           <ul>
